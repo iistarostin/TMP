@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "getIndexOf", "getIndexOf\getIndexOf.vcxproj", "{206BBFB1-E011-4C71-8A59-895E11EC5500}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{206BBFB1-E011-4C71-8A59-895E11EC5500}.Debug|x64.ActiveCfg = Debug|x64
+		{206BBFB1-E011-4C71-8A59-895E11EC5500}.Debug|x64.Build.0 = Debug|x64
+		{206BBFB1-E011-4C71-8A59-895E11EC5500}.Debug|x86.ActiveCfg = Debug|Win32
+		{206BBFB1-E011-4C71-8A59-895E11EC5500}.Debug|x86.Build.0 = Debug|Win32
+		{206BBFB1-E011-4C71-8A59-895E11EC5500}.Release|x64.ActiveCfg = Release|x64
+		{206BBFB1-E011-4C71-8A59-895E11EC5500}.Release|x64.Build.0 = Release|x64
+		{206BBFB1-E011-4C71-8A59-895E11EC5500}.Release|x86.ActiveCfg = Release|Win32
+		{206BBFB1-E011-4C71-8A59-895E11EC5500}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3C227ED-2C62-4B08-973E-C73F08131F0E}
+	EndGlobalSection
+EndGlobal
