@@ -39,7 +39,7 @@ public:
 };
 
 template<class Callable, typename...Args>
-BindingFunctor<Callable, Args...> makeBindingFunctor(const Callable& callable_entity, Args&&... args) 
+BindingFunctor<Callable, Args...> makeBindingFunctor(const Callable& callable, Args&&... args) 
 {
-    return BindingFunctor<Callable, Args...>(callable_entity, std::forward<Args>(args)...);
+    return BindingFunctor<Callable, Args...>(callable, std::forward<Args>(args)...);
 }

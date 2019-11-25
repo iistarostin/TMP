@@ -1,7 +1,7 @@
 #include <iostream>
 #include "FunctionWrapper.h"
 #include "FunctionTraits.h"
-#include "StaticTests.h"
+#include "Tests.h"
 
 int main()
 {

@@ -44,7 +44,7 @@ bool testBindgingFunctor()
 {
     auto ftr = makeBindingFunctor(f, 4, 3);
     auto ftr2 = makeBindingFunctor(&TestClass::f, 6, 4);
-    auto ftr3 = makeBindingFunctor((int(*)(int))([](int a) {return a+1;}), 5);
+    auto ftr3 = makeBindingFunctor(([](int a) {return a+1;}), 5);
     TestClass myObj;
     return ftr.invoke() == 1 && ftr2.invoke(myObj) == 24 && ftr3.invoke() == 6; 
 }
